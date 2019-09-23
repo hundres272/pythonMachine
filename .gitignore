@@ -5,4 +5,4 @@
 /2. Curso de python/appenfineServer/requirements.txt
 /2. Curso de python/appenfineServer/lib
 /2. Curso de python/appenfineServer/venv
-*.txt
+*.txt !*/

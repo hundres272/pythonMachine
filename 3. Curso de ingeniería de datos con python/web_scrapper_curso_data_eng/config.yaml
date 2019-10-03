@@ -9,5 +9,11 @@ news_sites:
     url: https://elpais.com
     queries:
       homepage_article_links: '.articulo-titulo a'
-      article_body: 'articulo-cuerpo'
-      article_title: '.articulo-titulares h1'
+      article_body: '.articulo-cuerpo'
+      article_title: '.articulo-titulo'
+  elsur:
+    url: https://diariodelsur.com.co
+    queries:
+      homepage_article_links: '.field-content a'
+      article_body: '.field-name-body'
+      article_title: '.field-title'

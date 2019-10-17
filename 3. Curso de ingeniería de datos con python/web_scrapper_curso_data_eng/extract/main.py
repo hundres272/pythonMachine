@@ -16,7 +16,7 @@ logger = logging.getLogger(__name__)
 is_well_formed_link = re.compile(r'^https?://.+/.+$')	# https://example.com/home
 is_root_path = re.compile(r'^/.+$')	# /some-text
 
-def _news_scraper(news_site_uid):
+def _news_scraper(news_site_uid):		# news_site_uid = eluniversal
 	host = config()['news_sites'][news_site_uid]['url']
 	logging.info('Beginning scraper for {}'.format(host))
 	homepage = news.HomePage(news_site_uid, host)

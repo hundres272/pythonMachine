@@ -6,7 +6,7 @@ import bs4
 class NewsPage:
     def __init__(self,news_site_uid, url):
         self._config = config()['news_sites'][news_site_uid]
-        self._queries = self._config['queries']
+        self._queries = self._config['queries']     #los vínculos de cada articulo
         self._html = None
         self._url = url
 
